@@ -1,0 +1,47 @@
+{
+  "name": "vibble-website",
+  "version": "1.0.0",
+  "description": "Vibble - Karar Yardımcısı Sosyal Uygulama Web Sitesi",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000 -o",
+    "dev": "npx http-server . -p 3000 -o",
+    "build": "echo 'Static website - no build required'",
+    "deploy:vercel": "vercel --prod",
+    "deploy:netlify": "echo 'Deploy to Netlify: drag and drop dist folder'",
+    "deploy:github": "echo 'Deploy to GitHub Pages: push to main branch'",
+    "lint": "echo 'No linting configured for static site'",
+    "test": "echo 'No tests configured for static site'",
+    "optimize": "echo 'Optimizing images and assets...'",
+    "compress": "echo 'Compressing assets...'"
+  },
+  "keywords": [
+    "vibble",
+    "karar-yardımcısı",
+    "sosyal-uygulama",
+    "ai-koç",
+    "topluluk",
+    "kararsızlık",
+    "web-sitesi",
+    "responsive",
+    "modern"
+  ],
+  "author": "Vibble Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vibble/vibble-website.git"
+  },
+  "homepage": "https://vibble.app",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+} 
